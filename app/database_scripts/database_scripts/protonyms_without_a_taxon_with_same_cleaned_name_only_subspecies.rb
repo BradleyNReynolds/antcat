@@ -2,7 +2,7 @@
 
 module DatabaseScripts
   class ProtonymsWithoutATaxonWithSameCleanedNameOnlySubspecies < DatabaseScript
-    LIMIT = 75
+    LIMIT = 500
 
     def statistics
       <<~STR.html_safe
